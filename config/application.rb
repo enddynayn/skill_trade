@@ -15,7 +15,8 @@ Bundler.require(:default, Rails.env)
 module Skilltrade
   class Application < Rails::Application
     config.generators do |g|
-  g.orm :mongo_mapper
-end
+  		g.orm :mongo_mapper
+  	end
+  	config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end

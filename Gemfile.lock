@@ -39,6 +39,8 @@ GEM
     addressable (2.3.5)
     arel (4.0.0)
     atomic (1.1.12)
+    bootstrap-sass (2.3.2.1)
+      sass (~> 3.2)
     bson (1.9.1)
     bson_ext (1.9.1)
       bson (~> 1.9.1)
@@ -212,6 +214,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   bson_ext
   capybara
   coffee-rails (~> 4.0.0)
